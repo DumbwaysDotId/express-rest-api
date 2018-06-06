@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev" : "set DEBUG=batch2DW:* & nodemon ./bin/www",
+    "dev" : "set DEBUG=express:* & nodemon ./bin/www",
     "start": "node ./bin/www"
   },
   "dependencies": {
